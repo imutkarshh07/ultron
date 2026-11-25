@@ -1,10 +1,323 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>ULTRON 2027 | Register</title><meta name="description" content="Register for ULTRON 2027."><meta name="theme-color" content="#B5121B"><link rel="stylesheet" href="style.css"></head>
-<body><a class="skip" href="#main">Skip to content</a>
-<header class="site-header"><a class="logo" href="index.html"><span class="mark"></span>ULTRON</a><nav class="nav" id="nav" aria-label="Main"><a href="index.html">Home</a><a href="events.html">Events</a><a href="schedule.html">Schedule</a><a href="register.html" aria-current="page">Register</a><a href="contact.html">Contact</a><a class="nav-cta" href="register.html">Get your pass</a></nav></header>
-<main id="main"><section class="page-hero"><div><h1>GET IN. MAKE <span>NOISE.</span></h1></div><div class="art"><i class="sh c1" style="background:var(--char);width:50%;aspect-ratio:1;left:-10%;bottom:-12%" aria-hidden="true"></i><div class="ph "><img src="https://www.quadcse.com/gallery-photos/student-life-img-47-640.webp" alt="Students at Quad"></div></div></section><section class="sec s-char"><div class="form-shell"><aside class="form-aside"><div class="label">Registration desk</div><h2>Your next chapter starts here.</h2><p class="muted">Fill in your details and choose the events you want to join. This is a front-end demo form: it checks your entries in the browser but does not send or store anything. After a successful check you can email the details to the organisers.</p><p><strong>12&ndash;14 February 2027, Patna</strong></p></aside><div><form action="mailto:hello@quadcse.com" method="post" enctype="text/plain"><div class="field"><label for="name">Full name</label><input id="name" name="name" type="text" placeholder="Your name" required minlength="2" autocomplete="name"></div><div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" required autocomplete="email"></div><div class="field"><label for="phone">Phone number</label><input id="phone" name="phone" type="tel" placeholder="+91 00000 00000" required pattern="([+]?[0-9 ()-]{10,16})" autocomplete="tel"></div><div class="field"><label for="department">Department</label><select id="department" name="department" required><option value="">Select</option><option>Computer Science &amp; Engineering</option><option>Electronics &amp; Communication</option><option>Mechanical Engineering</option><option>Electrical Engineering</option><option>Business Administration</option><option>Other</option></select></div><div class="field"><label for="year">Year of study</label><select id="year" name="year" required><option value="">Select</option><option>1st Year</option><option>2nd Year</option><option>3rd Year</option><option>4th Year</option><option>Other</option></select></div><div class="field"><label for="college">College / institution</label><input id="college" name="college" type="text" placeholder="Institution name"></div><div class="field full"><span class="group-label" id="pl">Participation type</span><div class="choice-row" role="radiogroup" aria-labelledby="pl"><label><input type="radio" name="participation" value="Individual" required> Individual</label><label><input type="radio" name="participation" value="Team"> Team</label><label><input type="radio" name="participation" value="Visitor"> Visitor</label></div></div><div class="field full"><span class="group-label" id="el">Event preferences</span><div class="choice-row" role="group" aria-labelledby="el"><label><input type="checkbox" name="events" value="Hackathon"> Hackathon</label><label><input type="checkbox" name="events" value="Robo Wars"> Robo Wars</label><label><input type="checkbox" name="events" value="Design Jam"> Design Jam</label><label><input type="checkbox" name="events" value="Battle of Bands"> Battle of Bands</label><label><input type="checkbox" name="events" value="Capture the Flag"> Capture the Flag</label><label><input type="checkbox" name="events" value="Open Mic"> Open Mic</label></div></div><div class="field full"><label for="message">Anything we should know?</label><textarea id="message" name="message" placeholder="Team details, accessibility needs, questions..."></textarea></div><div class="field full"><div class="cta-row"><button class="btn" type="submit">Prepare registration email</button><button class="btn ghost" type="reset">Clear form</button></div></div><p class="form-note">Your browser checks required fields first. Submitting opens your email app with the form details addressed to hello@quadcse.com. This static website does not store registrations or submit them to a server.</p></form></div></div></section></main>
-<footer class="site-footer"><div class="foot"><div><div class="big-logo">ULTRON</div><p>Make ideas louder. 12&ndash;14 February 2027.</p><p>A technology festival at Quad AI School of Technology &amp; Management, Patna.</p></div>
-<div><h3>Pages</h3><p><a href="index.html">Home</a></p><p><a href="events.html">Events</a></p><p><a href="schedule.html">Schedule</a></p><p><a href="register.html">Register</a></p><p><a href="contact.html">Contact</a></p></div>
-<div><h3>Find us</h3><address>Gigaspace, Road No. 19, Rajeev Nagar, Patna, Bihar 800024, India</address><p><a href="mailto:hello@quadcse.com">hello@quadcse.com</a></p><p><a href="tel:+917368050555">+91 7368050555</a></p><p><a href="https://www.quadcse.com" target="_blank" rel="noopener">www.quadcse.com</a></p></div></div>
-<div class="copy">&copy; 2027 ULTRON. Photographs are from Quad&rsquo;s official gallery and show Quad campus life and past activities; they are not photos of ULTRON 2027.</div></footer>
-</body></html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Register | ULTRON 2027
+  </title>
+  <meta content="Register for ULTRON 2027." name="description"/>
+  <meta content="#B5121B" name="theme-color"/>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <a class="skip" href="#main">
+   Skip to content
+  </a>
+  <header class="site-header">
+   <a class="logo" href="index.html">
+    <span class="mark">
+    </span>
+    ULTRON
+   </a>
+   <nav aria-label="Main" class="nav" id="nav">
+    <a href="index.html">
+     Home
+    </a>
+    <a href="events.html">
+     Events
+    </a>
+    <a href="schedule.html">
+     Schedule
+    </a>
+    <a aria-current="page" href="register.html">
+     Register
+    </a>
+    <a href="contact.html">
+     Contact
+    </a>
+    <a class="nav-cta" href="register.html">
+     Get your pass
+    </a>
+    <a download="ULTRON-2027-Brochure.pdf" href="ULTRON-2027-Brochure.pdf">
+     Download brochure
+    </a>
+   </nav>
+  </header>
+  <main id="main">
+   <section class="page-hero">
+    <div>
+     <h1>
+      GET IN. MAKE
+      <span>
+       NOISE.
+      </span>
+     </h1>
+    </div>
+    <div class="art">
+     <i aria-hidden="true" class="sh c1" style="background:var(--char);width:50%;aspect-ratio:1;left:-10%;bottom:-12%">
+     </i>
+     <div class="ph">
+      <img alt="Students at Quad" src="https://www.quadcse.com/gallery-photos/student-life-img-47-640.webp"/>
+     </div>
+    </div>
+   </section>
+   <section class="sec s-char">
+    <div class="form-shell">
+     <aside class="form-aside">
+      <div class="label">
+       Registration desk
+      </div>
+      <h2>
+       Your next chapter starts here.
+      </h2>
+      <p class="muted">
+       Complete the form and submit it using your email application. This static HTML version does not store registrations online.
+      </p>
+      <p>
+       <strong>
+        12&ndash;14 February 2027, Patna
+       </strong>
+      </p>
+     </aside>
+     <div>
+      <form action="mailto:hello@quadcse.com" enctype="text/plain" id="registration-form" method="post">
+       <div class="field">
+        <label for="name">
+         Full name
+        </label>
+        <input autocomplete="name" id="name" name="name" placeholder="Your name" required="" type="text"/>
+        <p class="err" id="name-err">
+        </p>
+       </div>
+       <div class="field">
+        <label for="email">
+         Email address
+        </label>
+        <input autocomplete="email" id="email" name="email" placeholder="you@example.com" required="" type="email"/>
+        <p class="err" id="email-err">
+        </p>
+       </div>
+       <div class="field">
+        <label for="phone">
+         Phone number
+        </label>
+        <input autocomplete="tel" id="phone" name="phone" placeholder="+91 00000 00000" required="" type="tel"/>
+        <p class="err" id="phone-err">
+        </p>
+       </div>
+       <div class="field">
+        <label for="department">
+         Department
+        </label>
+        <select id="department" name="department" required="">
+         <option value="">
+          Select
+         </option>
+         <option>
+          Computer Science &amp; Engineering
+         </option>
+         <option>
+          Electronics &amp; Communication
+         </option>
+         <option>
+          Mechanical Engineering
+         </option>
+         <option>
+          Electrical Engineering
+         </option>
+         <option>
+          Business Administration
+         </option>
+         <option>
+          Other
+         </option>
+        </select>
+        <p class="err" id="department-err">
+        </p>
+       </div>
+       <div class="field">
+        <label for="year">
+         Year of study
+        </label>
+        <select id="year" name="year" required="">
+         <option value="">
+          Select
+         </option>
+         <option>
+          1st Year
+         </option>
+         <option>
+          2nd Year
+         </option>
+         <option>
+          3rd Year
+         </option>
+         <option>
+          4th Year
+         </option>
+         <option>
+          Other
+         </option>
+        </select>
+        <p class="err" id="year-err">
+        </p>
+       </div>
+       <div class="field">
+        <label for="college">
+         College / institution
+        </label>
+        <input id="college" name="college" placeholder="Institution name" type="text"/>
+        <p class="err" id="college-err">
+        </p>
+       </div>
+       <div class="field full">
+        <span class="group-label" id="pl">
+         Participation type
+        </span>
+        <div aria-labelledby="pl" class="choice-row" role="radiogroup">
+         <label>
+          <input name="participation" required="" type="radio" value="Individual"/>
+          Individual
+         </label>
+         <label>
+          <input name="participation" type="radio" value="Team"/>
+          Team
+         </label>
+         <label>
+          <input name="participation" type="radio" value="Visitor"/>
+          Visitor
+         </label>
+        </div>
+        <p class="err" id="participation-err">
+        </p>
+       </div>
+       <div class="field full">
+        <span class="group-label" id="el">
+         Event preferences
+        </span>
+        <div aria-labelledby="el" class="choice-row" role="group">
+         <label>
+          <input name="events" type="checkbox" value="Hackathon"/>
+          Hackathon
+         </label>
+         <label>
+          <input name="events" type="checkbox" value="Robo Wars"/>
+          Robo Wars
+         </label>
+         <label>
+          <input name="events" type="checkbox" value="Design Jam"/>
+          Design Jam
+         </label>
+         <label>
+          <input name="events" type="checkbox" value="Battle of Bands"/>
+          Battle of Bands
+         </label>
+         <label>
+          <input name="events" type="checkbox" value="Capture the Flag"/>
+          Capture the Flag
+         </label>
+         <label>
+          <input name="events" type="checkbox" value="Open Mic"/>
+          Open Mic
+         </label>
+        </div>
+        <p class="err" id="events-err">
+        </p>
+       </div>
+       <div class="field full">
+        <label for="message">
+         Anything we should know?
+        </label>
+        <textarea id="message" name="message" placeholder="Team details, accessibility needs, questions..."></textarea>
+       </div>
+       <div class="field full">
+        <div class="cta-row">
+         <button class="btn" type="submit">
+          Submit registration
+         </button>
+         <button class="btn ghost" type="reset">
+          Clear form
+         </button>
+        </div>
+        <p aria-live="polite" class="notice" id="form-notice" role="status">
+        </p>
+       </div>
+      </form>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="site-footer">
+   <div class="foot">
+    <div>
+     <div class="big-logo">
+      ULTRON
+     </div>
+     <p>
+      Make ideas louder. 12&ndash;14 February 2027.
+     </p>
+     <p>
+      A technology festival at Quad AI School of Technology &amp; Management, Patna.
+     </p>
+    </div>
+    <div>
+     <h3>
+      Pages
+     </h3>
+     <p>
+      <a href="index.html">
+       Home
+      </a>
+     </p>
+     <p>
+      <a href="events.html">
+       Events
+      </a>
+     </p>
+     <p>
+      <a href="schedule.html">
+       Schedule
+      </a>
+     </p>
+     <p>
+      <a href="register.html">
+       Register
+      </a>
+     </p>
+     <p>
+      <a href="contact.html">
+       Contact
+      </a>
+     </p>
+    </div>
+    <div>
+     <h3>
+      Find us
+     </h3>
+     <address>
+      Gigaspace, Road No. 19, Rajeev Nagar, Patna, Bihar 800024, India
+     </address>
+     <p>
+      <a href="mailto:hello@quadcse.com">
+       hello@quadcse.com
+      </a>
+     </p>
+     <p>
+      <a href="tel:+917368050555">
+       +91 7368050555
+      </a>
+     </p>
+     <p>
+      <a href="https://www.quadcse.com" rel="noopener" target="_blank">
+       www.quadcse.com
+      </a>
+     </p>
+    </div>
+   </div>
+   <div class="copy">
+    &copy; 2027 ULTRON. Photographs are from Quad&rsquo;s official gallery and show Quad campus life and past activities; they are not photos of ULTRON 2027.
+   </div>
+  </footer>
+ </body>
+</html>
